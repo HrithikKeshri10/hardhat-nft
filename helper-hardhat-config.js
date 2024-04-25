@@ -8,6 +8,7 @@ const networkConfig = {
         subscriptionId: "10542",
         callbackGasLimit: "5000000",
         interval: "30",
+        mintFee: ethers.utils.parseEther("0.01"),
     },
 
     31337: {
